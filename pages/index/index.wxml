@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<block wx:for="{{newList}}" wx:key="index">
+  <view class="new" bindtap="toDetailNew" data-id="{{item.id}}">
+    <view class="new_l">
+      <image mode="aspectFit" src="{{item.img}}"></image>
+    </view>
+    <view class="new_r">
+      <text class="new_title">{{item.title}}</text>
+      <text class="new_content">{{item.content}}</text>
+      <text class="new_time">{{item.cTime}}</text>
+    </view>
+  </view>
+</block>

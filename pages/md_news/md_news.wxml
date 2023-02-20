@@ -1,0 +1,20 @@
+<!--pages/md_news/md_news.wxml-->
+<view class="new">
+  <view class="title_box">
+    <view>标题</view>
+    <input type="text" class="new_title" bindinput="saveTitle" value="{{title}}" />
+    <text wx:if="{{tipTitle}}">*请输入标题</text>
+  </view>
+  <view class="content_box">
+    <view>内容</view>
+    <textarea name="" id="" cols="30" rows="10" class="new_content" bindinput="saveContent" value="{{content}}" auto-height maxlength="2000"></textarea>
+    <text wx:if="{{tipContent}}">*请输入内容</text>
+  </view>
+  <view class="img_box">
+    <view>图片</view>
+    <image class="new_img" mode="aspectFit" src="{{img}}" bindtap="add_img"></image>
+    <text wx:if="{{tipImg}}">*请插入图片</text>
+  </view>
+
+  <button bindtap="editNew">修改新闻</button>
+</view>

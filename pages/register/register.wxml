@@ -1,0 +1,20 @@
+<view class="zong">
+     <form report-submit bindsubmit='dian'>
+          <view class="login-item">
+               <view class="login-item-info">用户名</view>
+               <view><input name="name" /></view>
+          </view>
+          <view class="login-item">
+               <view class="login-item-info">密码</view>
+               <view class="login-pwd">
+                    <input style="flex-grow:1" password="true" name="password" />
+               </view>
+          </view>
+          <van-dialog id="van-dialog" />
+          <view class="login-item bottom">
+               <button class="login-btn" form-type='submit'>注册</button>
+          </view>
+     </form>
+
+
+</view>

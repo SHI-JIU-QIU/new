@@ -1,0 +1,34 @@
+/* pages/detail_new/detail_new.wxss */
+.new {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.new text {
+  display: block;
+  margin: 5px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cTime {
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+}
+
+.content {
+  word-break: break-all;
+  font-size: 14px;
+}
+
+.new image {
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}

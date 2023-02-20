@@ -1,0 +1,7 @@
+<!--pages/detail_new/detail_new.wxml-->
+<view class="new">
+  <text class="title">{{title}}</text>
+  <text class="cTime">{{cTime}}</text>
+  <image mode="aspectFit" src="{{img}}"></image>
+  <text class="content" space>{{content}}</text>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/user/user.wxml-->
+<view class="index-container">
+  <image src="/images/user.jpg"></image>
+  <view class="nickname">
+    {{username}}
+  </view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages": ["pages/index/index", 
+    "pages/add_news/add_news",
+    "pages/md_news_list/md_news_list",
+    "pages/de_news/de_news",
+    "pages/md_news/md_news",
+    "pages/detail_new/detail_new",
+    "pages/user/user",
+    "pages/register/register",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "NEWS",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/add_news/add_news",
+        "text": "新增新闻"
+      },
+      {
+        "pagePath": "pages/md_news_list/md_news_list",
+        "text": "修改新闻"
+      },
+      {
+        "pagePath": "pages/de_news/de_news",
+        "text": "删除新闻"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
